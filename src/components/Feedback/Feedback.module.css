@@ -1,0 +1,71 @@
+.feedback{
+    padding: 14em 0;
+}
+.appWrap{
+    width: 111em;
+    margin: auto;
+}
+.feedback_subtitle {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4em;
+    line-height: 1.3em;
+    margin: 0;
+    color: #BDBDBD;
+}
+
+.feedback_title {
+    font-family: Merriweather, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.8em;
+    line-height: 1.4em;
+    color: #333333;
+    margin: 0.8em 0 1.6em;
+}
+.feedback_content{
+    background: #EBEBEB;
+}
+.feedback_content_wrap{
+    padding: 4.5em 9.5em;
+}
+.feedback_content_text{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8em;
+    line-height: 1.4em;
+
+    color: #000000;
+}
+.person_info{
+    display: flex;
+    align-items: center;
+}
+.feedback_content_name{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    margin: 0 0 0.5em;
+
+    color: #000000;
+}
+.feedback_content_post{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1.35em;
+    margin: 0;
+    color: #4F4F4F;
+}
+.feedback_content_image{
+    width: 8em;
+    height: 8em;
+    background-size: cover;
+    margin-right: 3.5em;
+}
+

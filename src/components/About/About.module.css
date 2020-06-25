@@ -1,0 +1,105 @@
+.about {
+
+}
+.appWrap{
+    width: 111em;
+    margin: auto;
+    padding: 14em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.about_content {
+
+}
+
+.about_subtitle {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4em;
+    line-height: 1.3em;
+    margin: 0;
+    color: #BDBDBD;
+}
+
+.about_title {
+    font-family: Merriweather, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.8em;
+    line-height: 1.4em;
+    color: #333333;
+    margin: 0.8em 0 1.25em;
+    width: 7.2em;
+}
+
+.about_title span {
+    color: #005FA3;
+}
+
+.about_text {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8em;
+    line-height: 1.38em;
+    color: #000000;
+    width: 24.7em;
+    margin: 0;
+}
+
+.cards_content {
+    width: 54em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2.3em;
+}
+
+.card {
+    width: 25.5em;
+    height: 25.5em;
+    background: #EBEBEB;
+    margin-bottom: 3em;
+    padding: 4em;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    background: #005FA3;
+}
+.card:hover h2,.card_text{
+    color: #FFFFFF;
+}
+.card:hover .card_text{
+    color: #FFFFFF;
+}
+.card h2 {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5.5em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+}
+
+.card_text {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.28em;
+    color: #000000;
+    width: 8em;
+    margin-bottom: 3.35em;
+
+}
+
+.card_textLink {
+    text-decoration-line: underline;
+    color: #005FA3;
+    margin: 0;
+}

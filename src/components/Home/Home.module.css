@@ -1,0 +1,66 @@
+.home{
+    background-size: cover;
+    padding: 11.3em 0;
+}
+.appWrap{
+    width: 111em;
+    margin: auto;
+}
+.slider_title{
+    font-family: Merriweather, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8em;
+    line-height: 1.37em;
+    color: #FFFFFF;
+    margin: 1.18em 0 1.66em;
+    width: 12.2em;
+}
+.pres_button{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+
+    text-align: center;
+    color: #FFFFFF;
+    background: #005FA3;
+    border: none;
+    padding: 1.05em 3.2em;
+    outline: none;
+    margin-bottom: 3.88em;
+}
+.button{
+    width: 6em;
+    height: 6em;
+    /*opacity: 0.2;*/
+    background: #FFFFFF20;
+    border: none;
+    outline: none;
+}
+.button:hover {
+    background: #FFFFFF40;
+}
+.button_img{
+    opacity: 1;
+    z-index: 2;
+}
+.slider_nav_btns{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.slider_nav{
+    display: flex;
+}
+.slider_nav_item{
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: 4em;
+}
+.slider_nav_item:hover {
+    opacity: 1;
+}

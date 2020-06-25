@@ -1,0 +1,37 @@
+.clients{
+    padding: 10em 0;
+    background: #EBEBEB;
+}
+.appWrap{
+    width: 111em;
+    margin: auto;
+}
+.client {
+    width: 25.5em;
+    height: 13em;
+}
+.clients_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clients_subtitle {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4em;
+    line-height: 1.3em;
+    margin: 0;
+    color: #BDBDBD;
+}
+
+.clients_title {
+    font-family: Merriweather, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.8em;
+    line-height: 1.4em;
+    color: #333333;
+    margin: 0.8em 0 2.1em;
+}
+

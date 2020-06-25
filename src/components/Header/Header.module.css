@@ -1,0 +1,89 @@
+
+.header {
+    width: 100%;
+    height: 11em;
+}
+
+.appWrap {
+    width: 111em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo_img {
+    width: 4em;
+    height: 4em;
+    margin-right: 3em;
+}
+
+.header_logo_text {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+    color: #005FA3;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    width: 66.5em;
+}
+
+.header_info_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_info_item_img {
+    background-size: cover;
+    height: 1.7em;
+    width: 2.3em;
+}
+
+.header_info_item_text {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #000000;
+    margin-left: 1.15em;
+
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.2em;
+}
+
+.menu_item_link {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    outline: none;
+}
+
+.menu_item_link:hover {
+    color: #005FA3;
+}
+
+.active_item {
+    /*color: #005FA3;*/
+}

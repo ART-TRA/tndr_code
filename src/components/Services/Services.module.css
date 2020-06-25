@@ -1,0 +1,68 @@
+.services {
+    background: #EBEBEB;
+}
+
+.appWrap {
+    width: 111em;
+    margin: auto;
+    padding: 14em 0;
+}
+
+.serv_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.serv_card {
+    position: relative;
+    width: 35em;
+    height: 36em;
+    margin-bottom: 3em;
+}
+
+.serv_card_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #005FA300;
+    z-index: 1;
+}
+
+.serv_card:hover .serv_card_bg {
+    background-color: #005FA360;
+}
+
+.services_subtitle {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4em;
+    line-height: 1.3em;
+    margin: 0;
+    color: #BDBDBD;
+}
+
+.services_title {
+    font-family: Merriweather, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.8em;
+    line-height: 1.4em;
+    color: #333333;
+    margin: 0.8em 0 2.1em;
+}
+
+.serv_card_title {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4em;
+    line-height: 1.25em;
+    margin: 10.8em 4.9em 1.87em 1.87em;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    z-index: 2;
+}
