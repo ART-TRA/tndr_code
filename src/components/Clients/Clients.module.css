@@ -10,11 +10,11 @@
     width: 25.5em;
     height: 13em;
 }
-.clients_content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/*.clients_content{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
 .clients_subtitle {
     font-family: Lato, sans-serif;
     font-style: normal;
@@ -34,4 +34,5 @@
     color: #333333;
     margin: 0.8em 0 2.1em;
 }
+
 

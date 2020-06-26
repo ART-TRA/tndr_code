@@ -6,6 +6,11 @@
     width: 111em;
     margin: auto;
 }
+.slider_item{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
 .slider_title{
     font-family: Merriweather, serif;
     font-style: normal;
@@ -63,4 +68,7 @@
 }
 .slider_nav_item:hover {
     opacity: 1;
+}
+.carousel{
+    text-align: left;
 }

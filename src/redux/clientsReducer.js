@@ -5,7 +5,12 @@ const initialState = {
         {id: 1, image: clientImg},
         {id: 2, image: clientImg},
         {id: 3, image: clientImg},
-        {id: 4, image: clientImg}
+        {id: 4, image: clientImg},
+        {id: 5, image: clientImg},
+        {id: 6, image: clientImg},
+        {id: 7, image: clientImg},
+        {id: 8, image: clientImg},
+        {id: 9, image: clientImg}
     ]
 };
 

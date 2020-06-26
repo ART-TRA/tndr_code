@@ -4,7 +4,8 @@ import React from "react";
 const initialState = {
     clients: [
         {
-            id: 1, image: clientImg,
+            id: 1,
+            image: clientImg,
             name: "Екатерина Иванова",
             post: "Директор ООО “Раз-два”",
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet" +
@@ -14,7 +15,8 @@ const initialState = {
                 "dolor fugiat molestiae mollitia nesciunt"
         },
         {
-            id: 2, image: clientImg,
+            id: 2,
+            image: clientImg,
             name: "Екатерина Иванова",
             post: "Директор ООО “Раз-два”",
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet" +
@@ -24,7 +26,8 @@ const initialState = {
                 "dolor fugiat molestiae mollitia nesciunt"
         },
         {
-            id: 3, image: clientImg,
+            id: 3,
+            image: clientImg,
             name: "Екатерина Иванова",
             post: "Директор ООО “Раз-два”",
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet" +
@@ -34,7 +37,8 @@ const initialState = {
                 "dolor fugiat molestiae mollitia nesciunt"
         },
         {
-            id: 4, image: clientImg,
+            id: 4,
+            image: clientImg,
             name: "Екатерина Иванова",
             post: "Директор ООО “Раз-два”",
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet" +

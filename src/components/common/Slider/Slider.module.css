@@ -1,0 +1,66 @@
+.client {
+    width: 25.5em;
+    height: 13em;
+}
+.appWrap{
+    width: 111em;
+    margin: auto;
+    padding: 10em 0;
+}
+.slider_nav_btns{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.slider_nav{
+    display: flex;
+}
+.slider_nav_item{
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: 4em;
+}
+.slider_nav_item_2{
+    background-color: #005FA3;
+    opacity: 0.4;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: 4em;
+}
+.slider_nav_item:hover {
+    opacity: 1;
+}
+.slider_nav_item_2:hover {
+    opacity: 1;
+}
+.buttons{
+    margin-top: 5em;
+}
+.button{
+    width: 4.5em;
+    height: 4.5em;
+    background: #FFFFFF20;
+    border: none;
+    outline: none;
+}
+.button_2{
+    width: 4.5em;
+    height: 4.5em;
+    background-color: #005FA320;
+    border: none;
+    outline: none;
+}
+.button_2:hover {
+    background-color: #005FA3;
+}
+.button:hover {
+    background: #FFFFFF40;
+}
+.button_img{
+    opacity: 1;
+    z-index: 2;
+}

@@ -68,4 +68,10 @@
     background-size: cover;
     margin-right: 3.5em;
 }
+.carousel{
+    height: 28.1em
+}
+ rec-slider-container{
+    margin: 0;
+}
 
